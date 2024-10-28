@@ -160,7 +160,7 @@ void MY_IMU::readData(void)
 
             gyr << imu_origin_data.gyroscope_x,
                     imu_origin_data.gyroscope_y,
-                    imu_origin_data.gyroscope_x;
+                    imu_origin_data.gyroscope_z;
 
             Eigen::Vector3d mag;
             mag << imu_origin_data.magnetometer_x,

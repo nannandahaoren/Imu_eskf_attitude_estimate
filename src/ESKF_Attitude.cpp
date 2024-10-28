@@ -67,8 +67,8 @@ void ESKF_Attitude::Init_Estimator()
     //y_state = z_state.cross(Cur_Measurement.block<3, 1>(6, 0));
     //x_state = y_state.cross(z_state);
     Eigen::Vector3d Acc0, Gyro0, Mag0;
-    Gyro0= Cur_Measurement.block<3, 1>(0, 0);
-    Acc0= Cur_Measurement.block<3, 1>(3, 0);
+    Acc0= Cur_Measurement.block<3, 1>(0, 0);
+    Gyro0= Cur_Measurement.block<3, 1>(3, 0);
     Mag0 = Cur_Measurement.block<3, 1>(6, 0);
 
     double Pitch0 = asin(Acc0[0]/Acc0.norm());

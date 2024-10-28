@@ -1,0 +1,4 @@
+/home/lj/serve/serve2/build/CMakeFiles/rebuild_cache.dir
+/home/lj/serve/serve2/build/CMakeFiles/edit_cache.dir
+/home/lj/serve/serve2/build/CMakeFiles/main.dir
+/home/lj/serve/serve2/build/CMakeFiles/Socket.dir

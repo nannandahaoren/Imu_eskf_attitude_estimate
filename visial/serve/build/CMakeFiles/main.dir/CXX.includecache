@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lj/serve/serve2/Socket.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+iostream
+-
+unistd.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+
+/home/lj/serve/serve2/socket_demo.cpp
+iostream
+-
+unistd.h
+-
+Socket.h
+/home/lj/serve/serve2/Socket.h
+
